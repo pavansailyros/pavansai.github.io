@@ -1,10 +1,44 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{background-color: black;}
+        a{ text-decoration : none;
+          color:dodgerblue;
+          font-weight:bolder;
+        }
+         .container{
+            display: flex;
+            height: 200px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around ;
+           align-items: center; 
+        }
+        .container div{color:"white"}
+        h2,p{color:white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 50px;
+            }
+        </style>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <div class="container">
+        <div >
+    <h2>Pavan Sai</h2><br>
+    <p>MERN Stack Developer</p>
+        </div>
+    <div class="">
+    <h2> My Projectts</h2><br>
+  
+    <a href="#">Home</a><br>
+    <a href="https://pavansailyros.github.io/myapps/facebook/">Facebook</a><br>
+    <a href="https://pavansailyros.github.io/ecom-react/">My Store</a>
+
+        </div>
+        </div>
 </body>
 </html>
